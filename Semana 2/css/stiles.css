@@ -1,0 +1,22 @@
+h1{
+    color: red;
+    font-family: Impact;
+}
+nav{
+    color: blue;
+    font-size: 25px;
+}
+main{
+    background-color: coral;
+}
+main section{
+    color: yellow;
+}
+aside{
+    background-color: red;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: red;
+}
