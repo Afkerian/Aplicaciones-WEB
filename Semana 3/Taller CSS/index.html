@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio CSS</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <!--Ejercicio:
+    1. Un HTMl y un CSS vinculado
+    2. Una estructura que tenga un contenedor general, cabecera, menu, barra
+    lateral, sección de contenido y footer
+    3. El contenido este centrado dentro del contenedor general y tenga un
+    ancho de 860px y centrado.
+    4. header debe ocupar el 100% del ancho y tener texto centrado grande
+    5. En el menu lo elementos deben estar uno junto al otro
+    6. Contenido principal con un ancho del 80%
+    7. El contenido que esta dentro del contenedor general sea una cuadrícula
+    con 4 filas y 2 columnas
+    8. La barra lateral debe tener un 20%
+    9. El footer que tenga un 100% de contenido y estar ubicado en la parte
+    final (abajo)-->
+    <body>
+        <div id="general">
+            <header id="header">
+                <h1>Ejercicio CSS</h1>
+            </header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Galería</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+            <section id="contenido">
+                <h2>Contenido de la pagina</h2>
+                <div class="caja">Texto 1</div>
+                <div class="caja">Texto 2</div>
+                <div class="caja">Texto 3</div>
+                <div class="caja">Texto 4</div>
+                <div class="caja sombra-interior">Texto 5</div>
+                <div class="caja">Texto 6</div>
+                <div class="caja">Texto 7</div>
+                <div class="caja">Texto 8</div>
+                <div class="caja">Texto 9</div>
+                <div class="caja">Texto 10</div>
+            </section>
+            <aside id="lateral">
+                <div id="caja">
+                    <h2>Barra lateral</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione quia pariatur illo dolorem, illum voluptatum veritatis natus tempore aspernatur id nihil, quos cupiditate saepe dicta nam enim voluptatibus quasi.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quaerat facere vero nostrum nemo eum aspernatur ad recusandae ipsa, consequatur a autem odit dolores, illum, sit totam accusamus cumque labore!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic quos obcaecati corrupti. Necessitatibus atque ratione doloremque autem eum ipsum quisquam voluptates vitae aperiam quae, distinctio officiis ducimus cupiditate consectetur!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quas perspiciatis sequi incidunt voluptatibus pariatur magni quisquam excepturi? Voluptates iste, odit distinctio fugiat magnam molestiae laudantium asperiores incidunt beatae explicabo!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odio et dolorum, officiis necessitatibus accusamus, qui quibusdam voluptatibus ea laborum sapiente vitae unde animi excepturi placeat. Laborum aspernatur animi veniam.
+                    </p>
+                </div>
+            </aside>
+            <footer id="footer">
+                Todos los derechos reservados
+                <div class="libre libre1">Texto 11</div>
+                <div class="libre libre2">Texto 12</div>
+                <div class="libre fija">Texto 13</div>
+            </footer>
+        </div>
+   
+    </body>
+</html>

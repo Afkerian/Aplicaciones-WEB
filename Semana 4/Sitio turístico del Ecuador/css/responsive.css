@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+    body {
+        background: rgb(163, 159, 159);
+        color: azure;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container .box-container {
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .container .image-container {
+        grid-column: span 4;
+    }
+
+    .image-container {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .card {
+        float: left;
+        width: 100%;
+        padding: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container .list-container {
+        grid-row: inherit;
+        grid-column: span 4;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .sidebar-container {
+        grid-row: initial;
+        grid-column: span 4;
+
+    }
+    img{
+        border-radius: 5%;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+    }
+}
